@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgDetalhes"
+        android:layout_width="205dp"
+        android:layout_height="194dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textoNomeDetalhe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="238dp" />
+
+    <TextView
+        android:id="@+id/textoMortoVivoDetalhe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Morto ou Vivo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <TextView
+        android:id="@+id/txtLocalizaçãoDetalhe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ultima Localização"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <TextView
+        android:id="@+id/txtAparicaoDetalhe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ultima Aparição"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="411dp" />
+
+    <TextView
+        android:id="@+id/textoLocalDetalhe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Local"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <TextView
+        android:id="@+id/textoAparicaoDetalhe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apariçao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="439dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
